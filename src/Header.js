@@ -10,7 +10,7 @@ const Header = props => {
                 props.links.map(link => (
                     <Button 
                     color='secondary'
-                    variant='raised' 
+                    variant='outlined' 
                     component={Link} 
                     key={link.url} 
                     to={link.url}>

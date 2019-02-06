@@ -35,7 +35,7 @@ export default class FormDialog extends React.Component {
   render() {
     return (
       <div>
-        <Button variant="outlined" color="primary" onClick={this.handleClickOpen}>
+        <Button variant="outlined" color="secondary" onClick={this.handleClickOpen}>
           Gra za e-mail
         </Button>
         <Dialog
